@@ -14,7 +14,7 @@ public class Main {
     }
 
     /**
-     * Lambda works because Runnable is a function interface
+     * Lambda works because Runnable is a functional interface
      */
     private static void lambdaWithRunnableExample() {
         Runnable runnable = () -> System.out.println("Hello from Runnable!");
@@ -38,7 +38,7 @@ public class Main {
         names.forEach(name -> System.out.println(name));
         System.out.println();
 
-        // Double colons works as Classname:method
+        // Double colons works as Classname::method
         // In this example we go to class System and the variable out which is a PrintStream class and that class contains the method println.
         // The double colon only works where lambda works!
         System.out.println("Print with names.forEach(System.out::println);");
