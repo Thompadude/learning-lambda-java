@@ -1,7 +1,7 @@
 package com.example;
 
 @FunctionalInterface
-public interface Foo {
+public interface FooInterface {
 
     void methodWithStringParam(String s);
 
